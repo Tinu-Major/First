@@ -48,11 +48,70 @@ button {
     border-radius: 12px;
 
 }
-
-p {
+.small {
     margin-block: 30px;
     font-size: 1.2rem;
 }
+
+.part2{
+    width: 80%;
+    margin-inline: auto;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.first{
+    width: 30%;
+    margin-block: 30px;
+    /* border: thick solid black; */
+}
+.image{
+    width: 100%;
+}
+h2{
+    font-size: 42px;
+    color: rgb(0, 0, 82);
+}
+h3{
+    font-size: 25px;
+    color: rgb(0, 0, 82);
+    margin-block: 25px;
+}
+.text1{
+    font-size: 15px;
+    /* font-weight: 500; */
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+a{
+    font-size: 17px;
+    font-weight: 550;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    text-decoration-color: rgb(20, 22, 67);
+    color: rgb(20, 22, 67);
+}
+h4{
+    margin-top: 70px;
+    font-size: 18.3px;
+    font-weight: 700;
+}
+.text2{
+    font-size: 16.7px;
+    /* text-decoration: underline; */
+    /* text-underline-offset: 10px; */
+    border-bottom: thin solid;
+    border-color:  skyblue;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+
+
+
+
 
 @media (max-width: 980px) {
     .Raw {
@@ -68,12 +127,27 @@ p {
     .rawimg {
         width: 100%;
     }
+    .container{
+        display: block;
+    }
+    .first{
+        width: 100%;
+        margin-block: 50px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 20px;
+    }
+
+
 }
 @media (max-width:605px) {
     .rawimg img {
         width: 100%;
     }
-    h1{
+    .biggest{
         font-size: 3rem;
     }
 
